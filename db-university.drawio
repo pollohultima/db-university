@@ -5,7 +5,7 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti una università:&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit ; color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;- sono presenti diversi &quot;dipartimenti&quot;, ciascuno con i propri &quot;corsi di laurea&quot;;&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit ; color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;- ogni corso di laurea è formato da diversi &quot;corsi&quot;;&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit ; color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;- ogni corso può essere tenuto da diversi &quot;insegnanti&quot; e prevede più &quot;appelli d'esame&quot;;&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit ; color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;- ogni &quot;studente&quot; è iscritto ad un corso di laurea;&lt;/span&gt;&lt;br style=&quot;box-sizing: inherit ; color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;&lt;span style=&quot;color: rgb(209 , 210 , 211) ; font-family: , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(34 , 37 , 41)&quot;&gt;- per ogni appello d'esame a cui lo studente ha partecipato, è necessario memorizzare il &quot;voto&quot; ottenuto, anche se non sufficiente&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="525" y="20" width="870" height="100" as="geometry"/>
+                    <mxGeometry x="564" y="35" width="870" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Dipartimenti" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
                     <mxGeometry x="414" y="220" width="180" height="120" as="geometry"/>
@@ -146,7 +146,7 @@
                     <mxGeometry x="30" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="Appelli d'esame" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-                    <mxGeometry x="870" y="668" width="180" height="130" as="geometry"/>
+                    <mxGeometry x="870" y="668" width="180" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="55">
                     <mxGeometry y="30" width="180" height="30" as="geometry"/>
@@ -173,6 +173,15 @@
                     <mxGeometry width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="id_studente" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="62">
+                    <mxGeometry x="30" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="55">
+                    <mxGeometry y="120" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="173">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="voto_esame" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="173">
                     <mxGeometry x="30" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="Studenti" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -212,45 +221,6 @@
                     <mxGeometry width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="80" value="numero_matricola" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="78">
-                    <mxGeometry x="30" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="81" value="Voti" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-                    <mxGeometry x="562" y="802" width="180" height="160" as="geometry"/>
-                </mxCell>
-                <mxCell id="82" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="81">
-                    <mxGeometry y="30" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="82">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="84" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="82">
-                    <mxGeometry x="30" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="81">
-                    <mxGeometry y="60" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="85">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="87" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="85">
-                    <mxGeometry x="30" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="88" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="81">
-                    <mxGeometry y="90" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="89" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="88">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="90" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="88">
-                    <mxGeometry x="30" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="91" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="81">
-                    <mxGeometry y="120" width="180" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="91">
-                    <mxGeometry width="30" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="93" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="91">
                     <mxGeometry x="30" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="122" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="145" target="17">

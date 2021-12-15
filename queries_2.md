@@ -97,4 +97,13 @@ ON `teachers`.`id` = `course_teacher`.`teacher_id`
 WHERE `departments`.`id` = 5  
 ORDER BY `teachers`.`surname` ASC;
 
+
 BONUS: Selezionare per ogni studente quanti tentativi d’esame ha sostenuto per superare ciascuno dei suoi esami
+
+SELECT `students`.`name` AS student_name, `students`.`surname` AS student_surname, COUNT(`student_id`) AS exams_attempts
+FROM `exam_student`
+JOIN `students`
+ON `students`.`id` = `exam_student`.`student_id`
+GROUP BY `student_id`
+HAVING COUNT(`student_id`)>1
+ORDER BY `students`.`surname` ASC, `students`.`name` ASC;
